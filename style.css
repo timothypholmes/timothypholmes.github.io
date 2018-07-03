@@ -126,13 +126,13 @@ body {
     cursor: pointer;
 }
 
-.screen img {
+.screen img, a img {
 	
 	transition: transform 1s ease-in-out 0.5s
 		
 }
 
-.screen:hover img {
+.screen:hover img, a:hover img{
 	
     transform: translateX(-30%);
 	
@@ -156,6 +156,7 @@ body {
 .projects > .postContainer > .postContent > a:hover{
 
     opacity: 0.5;
+	text-decoration: ;
 
 }
 /*
