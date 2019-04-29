@@ -389,7 +389,7 @@ header {
         left: 50%;
         transform: translate(-50%, -50%);
         color: whitesmoke;
-        font-size: 5px;
+        font-size: 30px;
     }
     
     .banner > h6:hover { 
@@ -403,7 +403,7 @@ header {
         top: 280px;
         transform: translate(-50%, -50%);
         color: whitesmoke;
-        font-size: 5px;
+        font-size: 15px;
     }
     
     /* -----------------------------------Content----------------------------------- */
@@ -583,7 +583,7 @@ header {
     }
     
     .footer > .footer_quote {
-        font-size: 5px;  
+        font-size: 15px;  
         color: white;
         position: center;
         text-align: center;
@@ -600,7 +600,7 @@ header {
     .footer > .footer_nav > li {  
         display: inline-block;
         padding: 0px 40px 40px 40px;
-        font-size: 5px;  
+        font-size: 10px;  
         color: white;
     }
     
