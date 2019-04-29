@@ -180,14 +180,14 @@ header {
 /* -----------------------------------Footer----------------------------------- */
 
 .footer {  
-      position: relative;
-      bottom: -250px;
-      width: 100%;
-      height: 350px;
-      /*background-color: whitesmoke;*/
-      background-color: #222226;
-      text-align: 20px;
-      border-top: 2px solid whitesmoke; 
+    position: relative;
+    bottom: -250px;
+    width: 100%;
+    height: 450px;
+    /*background-color: whitesmoke;*/
+    background-color: #222226;
+    text-align: 20px;
+    border-top: 2px solid whitesmoke; 
 }
 
 .footer > .copyright {
