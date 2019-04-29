@@ -587,7 +587,7 @@ header {
         color: white;
         position: center;
         text-align: center;
-        padding: 40px 40px 40px 40px;
+        padding: 20px 20px 20px 20px;
     }
     
     .footer > .footer_nav {
@@ -599,7 +599,7 @@ header {
     
     .footer > .footer_nav > li {  
         display: inline-block;
-        padding: 0px 40px 40px 40px;
+        padding: 0px 15px 15px 15px;
         font-size: 10px;  
         color: white;
     }
