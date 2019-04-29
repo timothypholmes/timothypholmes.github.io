@@ -80,9 +80,19 @@ header {
 .section1 > p {
     color: black;
     position: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 30%;
     padding-top: 10%; 
+}
+
+.section1 > .about_me_profile {
+    height: 400px;
+    width: 300px;
+    float: left;
+    padding-left: 10%;
+    padding-top: 10%; 
+    border-radius: 10%;
+    margin-right: 30px;
 }
 
 .section2 {
@@ -118,16 +128,24 @@ header {
     display: inline-block;
     padding: 0 25px 0 25px;
     font-size: 13px;  
-    opacity: 0.9;
+    opacity: 1;
 }
 
 .nav > .nav_buttons > li a {   
     text-decoration: none;
     color: white;
-    border-bottom: 2px solid black;
-    opacity: 0.9;
+    border-bottom: 0.2px solid white;
+    opacity: 1;
 }
 
+.nav > .nav_buttons:hover li {
+    opacity: 0.2;
+}
+
+.nav > .nav_buttons > li:hover {
+    opacity: 1;
+}
+/* Blur
 .nav > .nav_buttons:hover li {
     filter:blur(3px);
     opacity:.9;
@@ -140,7 +158,7 @@ header {
     filter:blur(0px);
     opacity:1;
 }
-
+*/
 /* -----------------------------------Logo Nav Bar----------------------------------- */
 .logo {
     float: left;
@@ -169,12 +187,12 @@ header {
 /* -----------------------------------Side Bar----------------------------------- */
 /* -----------------------------------What does this do?----------------------------------- */
 .sideProfile {   
-      text-align:center;
-      display:block;
+      text-align: center;
+      display: block;
       border-radius: 100%;
       margin-left: auto;
       margin-right: auto;
-      height: 100px;
+      height: 75px;
 }
 
 /* -----------------------------------Footer----------------------------------- */
