@@ -36,7 +36,6 @@ header {
     display: block; 
     position: absolute;
     bottom: -350px;
-    min-width: 2100px;
 }
 
 .banner > h6 { 
@@ -45,7 +44,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     color: whitesmoke;
-    font-size: 70px;
+    font-size: 5px;
 }
 
 .banner > h6:hover { 
@@ -59,7 +58,7 @@ header {
     top: 280px;
     transform: translate(-50%, -50%);
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 5px;
 }
 
 /* -----------------------------------Content----------------------------------- */
@@ -127,7 +126,7 @@ header {
 .nav > .nav_buttons > li {  
     display: inline-block;
     padding: 0 25px 0 25px;
-    font-size: 13px;  
+    font-size: 5px;  
     opacity: 1;
 }
 
@@ -158,29 +157,8 @@ header {
     filter:blur(0px);
     opacity:1;
 }
+*/
 
-.show_nav_button{
-    display: none;
-  }
-   
-
-  @media only screen and (max-width: 481px){
-    .nav_buttons{
-      display: none;
-    }
-   
-    .show_nav_button{
-      display: block;
-      float: right;
-    }
-  }
-
-  .show_nav_button {
-    width: 25px;
-    height: 2px;
-    background-color: #ffffff;
-  }
-  */
 /* -----------------------------------Logo Nav Bar----------------------------------- */
 .logo {
     float: left;
@@ -193,7 +171,7 @@ header {
     float: left;
     padding-left: 0px;
     padding-top: 0px;
-    font-size: 2vw;
+    font-size: 1vw;
     font-weight: 100;  
 }
 
@@ -231,7 +209,7 @@ header {
 }
 
 .footer > .copyright {
-    font-size: 30px;  
+    font-size: 5px;  
     color: white;
     position: center;
     text-align: center;
@@ -246,7 +224,7 @@ header {
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 11px;
+    font-size: 5px;
 }
 
 .footer > .copyright > a {  
@@ -260,7 +238,7 @@ header {
 }
 
 .footer > .footer_quote {
-    font-size: 30px;  
+    font-size: 5px;  
     color: white;
     position: center;
     text-align: center;
@@ -277,7 +255,7 @@ header {
 .footer > .footer_nav > li {  
     display: inline-block;
     padding: 0px 40px 40px 40px;
-    font-size: 18px;  
+    font-size: 5px;  
     color: white;
 }
 
@@ -317,19 +295,3 @@ header {
 .footer > .footer_contacts a:hover {
     opacity: 1;
 }
-
-.show_nav_button{
-    display: none;
-  }
-   
-  /* Phone portrait */
-  @media only screen and (max-width: 481px){
-    .footer_contacts{
-      display: none;
-    }
-   
-    .show_nav_button{
-      display: block;
-      float: right;
-    }
-  }
