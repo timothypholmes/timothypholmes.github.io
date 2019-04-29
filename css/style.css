@@ -7,7 +7,7 @@ body {
     height: 100%;
 }
 
-/* Header */
+/* -----------------------------------Header----------------------------------- */
 header {
     height: 60px;
     background: #919191;
@@ -21,7 +21,7 @@ header {
     min-height: 100%;
 }
 
-/* Banner */
+/* -----------------------------------Banner----------------------------------- */
 .banner {
     width: 100%;
     height: 300px;
@@ -62,7 +62,7 @@ header {
     font-size: 20px;
 }
 
-/* Content */
+/* -----------------------------------Content----------------------------------- */
 .content {
     width: 100%;
     position: relative;
@@ -103,7 +103,7 @@ header {
     color: black;
 }
 
-/* Nav Bar */
+/* -----------------------------------Nav Bar----------------------------------- */
 .nav {   
     background-color: #222226;
     color: black;
@@ -141,7 +141,7 @@ header {
     opacity:1;
 }
 
-/* Logo Nav Bar */
+/* -----------------------------------Logo Nav Bar----------------------------------- */
 .logo {
     float: left;
     padding-left: 50px;
@@ -166,43 +166,8 @@ header {
   color:blue; 
 }
 
-/* Side Bar */
-.wrapper { 
-    display: flex;
-    /*justify-content: space-between;*/    
-  }
-
-.postContainer {  
-    margin: 20px 20px 0 0;  
-    overflow: auto;      
-}
-  
-.postContent {  
-    margin-left: 210px;       
-}
-
-.sidebar {
-    padding-top: 20px;
-    padding-right: 35px;
-    padding-left: 35px;
-    width: 175px;
-    height: 400px;
-    opacity: 0.5;
-    float: left;
-    left: 0;   
-}
-  
-.sidebar:hover {    
-    opacity: 1;   
-}
-  
-.sidebar {   
-    position: -webkit-sticky;
-    position: fixed;
-    top: 400;
-    left: 0;    
-}
-  
+/* -----------------------------------Side Bar----------------------------------- */
+/* -----------------------------------What does this do?----------------------------------- */
 .sideProfile {   
       text-align:center;
       display:block;
@@ -211,45 +176,8 @@ header {
       margin-right: auto;
       height: 100px;
 }
-  
-.sidebar > H2 {
-      text-decoration: none;
-      color: lightslategray;
-      float: bottom;
-      padding-left: 40px;
-      padding-right: 40px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      font-size: 16px;
-      text-align:center;
-}
-  
-.sidebar > p {  
-      text-decoration: none;
-      color: lightslategray;
-      float: bottom;
-      padding-left: 25px;
-      padding-top: 5px;
-      font-size: 12px;
-      border-right: 2px solid darkgrey;   
-}
-  
-.sidebar > p > a{   
-      text-decoration: none;
-      color: lightslategray;
-      float: bottom;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      font-size: 15px;
-      color: lightslategray;
-      font-size: 12px; 
-      color: lightslategray;
-      text-decoration: none;   
-}
-  
-.sidebar > p > a:hover {   
-      opacity: 0.5;   
-}
+
+/* -----------------------------------Footer----------------------------------- */
 
 .footer {  
       position: relative;
@@ -261,8 +189,16 @@ header {
       text-align: 20px;
       border-top: 2px solid whitesmoke; 
 }
+
+.footer > .copyright {
+    font-size: 30px;  
+    color: white;
+    position: center;
+    text-align: center;
+    padding: 40px 40px 0px 40px;
+}
   
-.footer > p {  
+.footer > .copyright > p {  
     text-decoration: none;
     color: gray;
     position: center;
@@ -273,7 +209,7 @@ header {
     font-size: 11px;
 }
 
-.footer > a {  
+.footer > .copyright > a {  
     text-decoration: none;
     color: lightslategray;
     position: center;
