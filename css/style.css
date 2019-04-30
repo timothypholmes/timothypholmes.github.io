@@ -363,6 +363,16 @@ header {
         position: absolute;
         bottom: -350px;
     }
+
+    .banner > a { 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        top: 75px;
+        transform: translate(-50%, -50%);
+        color: whitesmoke;
+        font-size: 15px;
+    }
     
     .banner > h6 { 
         position: absolute;
@@ -370,7 +380,7 @@ header {
         left: 50%;
         transform: translate(-50%, -50%);
         color: whitesmoke;
-        font-size: 30px;
+        font-size: 50px;
     }
     
     .banner > h6:hover { 
@@ -405,9 +415,7 @@ header {
     .section1 > p {
         color: black;
         position: center;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 5%; 
+        padding: 20px 20px 20px 20px;
     }
     
     .section1 > .about_me_profile {
@@ -448,6 +456,28 @@ header {
         border-bottom: 2px solid black;
         opacity: 0.8;
     }
+
+    .nav > .nav_drop_menu > .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+  
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-8px, -8px) ;
+    }
     
     .nav > .nav_buttons > li {  
         display: inline-block;
@@ -470,20 +500,6 @@ header {
     .nav > .nav_buttons > li:hover {
         opacity: 1;
     }
-    /* Blur
-    .nav > .nav_buttons:hover li {
-        filter:blur(3px);
-        opacity:.9;
-        transform: scale(.99);
-        box-shadow:none;
-    }
-    
-    .nav > .nav_buttons > li:hover {
-        transform:scale(1);
-        filter:blur(0px);
-        opacity:1;
-    }
-    */
     
     /* -----------------------------------Logo Nav Bar----------------------------------- */
     .logo {
@@ -527,26 +543,25 @@ header {
         position: relative;
         bottom: -250px;
         width: 100%;
-        height: 450px;
+        height: 250px;
         /*background-color: whitesmoke;*/
         background-color: #222226;
         text-align: 20px;
-        border-top: 2px solid whitesmoke; 
+        border-top: 0px solid whitesmoke; 
     }
     
     .footer > .copyright {
+        background-color: #222226;
+        list-style: none;
         position: center;
         text-align: center;
     }
       
     .footer > .copyright > p {  
-        text-decoration: none;
-        color: gray;
-        position: center;
-        position: absolute;
+        display: inline-block;
+        padding: 0px 10px 0px 10px;
         font-size: 5px;
-        text-align: center;
-        padding: 20px 20px 20px 20px;
+        color: gray;
     }
       
     .footer > a:hover { 
@@ -558,7 +573,7 @@ header {
         color: white;
         position: center;
         text-align: center;
-        padding: 20px 20px 20px 20px;
+        padding: 20px 20px 0px 20px;
     }
     
     .footer > .footer_nav {
@@ -570,8 +585,8 @@ header {
     
     .footer > .footer_nav > li {  
         display: inline-block;
-        padding: 0px 15px 15px 15px;
-        font-size: 10px;  
+        padding: 30px 10px 0px 10px;
+        font-size: 12px;  
         color: white;
     }
     
@@ -599,9 +614,9 @@ header {
     .footer > .footer_contacts > a {  
         text-decoration: none;
         display: inline-block;
-        padding: 0px 15px 0px 15px;
+        padding: 0px 15px 15px 15px;
         color: white;
-    
+        font-size: 20px;
     }
     
     .footer > .footer_contacts:hover a {
