@@ -318,29 +318,10 @@ header {
     opacity: 1;
 }
 
-.show_nav_button{
-    display: none;
-  }
-   
-  /* Phone portrait */
-  @media only screen and (max-width: 481px){
-    .footer_contacts{
-      display: none;
-    }
-   
-    .show_nav_button{
-      display: block;
-      float: right;
-    }
-  }
 
 
 
-
-
-
-
-  /*----------------------------------- Mobile ----------------------------------- */
+/*----------------------------------- Mobile ----------------------------------- */
 
   @media only screen and (max-device-width: 480px) {
     body, div, h1, h2, h3, h4, h4, h6, p, ul, ol, li, dl, dt, dd, img, form{
@@ -416,7 +397,7 @@ header {
     }
     
     .section1 {
-        height: 100vh;
+        height: auto;
         background: lightgray;
         box-sizing: border-box;
     }
@@ -424,14 +405,14 @@ header {
     .section1 > p {
         color: black;
         position: center;
-        padding-left: 20%;
-        padding-right: 30%;
-        padding-top: 10%; 
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%; 
     }
     
     .section1 > .about_me_profile {
-        height: 400px;
-        width: 300px;
+        height: 150px;
+        width: 100px;
         float: left;
         padding-left: 10%;
         padding-top: 10%; 
@@ -514,9 +495,9 @@ header {
     .logo_name {
         color:white;
         float: left;
-        padding-left: 0px;
+        padding-left: 10px;
         padding-top: 0px;
-        font-size: 1vw;
+        font-size: 20px;
         font-weight: 100;  
     }
     
@@ -537,7 +518,7 @@ header {
           border-radius: 100%;
           margin-left: auto;
           margin-right: auto;
-          height: 75px;
+          height: 0px;
     }
     
     /* -----------------------------------Footer----------------------------------- */
@@ -554,11 +535,8 @@ header {
     }
     
     .footer > .copyright {
-        font-size: 5px;  
-        color: white;
         position: center;
         text-align: center;
-        padding: 40px 40px 0px 40px;
     }
       
     .footer > .copyright > p {  
@@ -566,16 +544,9 @@ header {
         color: gray;
         position: center;
         position: absolute;
-        top: 65%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         font-size: 5px;
-    }
-    
-    .footer > .copyright > a {  
-        text-decoration: none;
-        color: lightslategray;
-        position: center;
+        text-align: center;
+        padding: 20px 20px 20px 20px;
     }
       
     .footer > a:hover { 
