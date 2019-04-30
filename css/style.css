@@ -456,31 +456,35 @@ header {
         opacity: 0.8;
     }
 
-    .nav > .nav_drop_menu {
-        float: right;
+    .topnav .myLinks {
+        display: none;
     }
 
-    .nav > .nav_drop_menu > .bar1, .bar2, .bar3 {
-        width: 40px;
-        height: 4px;
-        background-color: white;
-        margin: 2px 0;
-        transition: 0.4s;
+    .topnav a {
+        color: white;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
     }
 
-    .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-        transform: rotate(-45deg) translate(-9px, 6px) ;
-    }
-
-    .change .bar2 {
-        opacity: 0;
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
   
-    .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-        transform: rotate(45deg) translate(-8px, -8px) ;
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
     }
+  
+    .active {
+        background-color: #222226;
+        color: white;
+    } 
     
     .nav > .nav_buttons > li {  
         display: inline-block;

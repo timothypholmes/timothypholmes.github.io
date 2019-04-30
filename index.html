@@ -33,28 +33,34 @@
             </div>
             <!-- End Logo -->
 
-            <div class="nav_drop_menu" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a class="active" href="Index.html">Home</a></li>
-                        <li><a href="#about_me">About Me</a></li> 
-                        <li><a href="resume.html">Resume</a></li> 
-                        <li><a href="projects.html">Portfolio</a></li> 
-                        <li><a href="contacts.html">Contact</a></li> 
-                    </ul>
-                </li>
+            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+            <div class="topnav">
+            <a href="#home" class="active"></a>
+            <div id="myLinks">
+                <li><a class="active" href="Index.html">Home</a></li>
+                <li><a href="#about_me">About Me</a></li> 
+                <li><a href="resume.html">Resume</a></li> 
+                <li><a href="projects.html">Portfolio</a></li> 
+                <li><a href="contacts.html">Contact</a></li> 
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
             </div> 
 
             <script>
-            function myFunction(x) {
-                x.classList.toggle("change");
-              } 
-            </script>
-
+            function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+            x.style.display = "block";
+             }
+            } 
+</script>
             <!-- 
             <div class="nav_buttons">
                 <li><a class="active" href="Index.html">Home</a></li>
