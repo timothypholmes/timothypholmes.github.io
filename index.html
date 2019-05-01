@@ -33,35 +33,22 @@
             </div>
             <!-- End Logo -->
 
-            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+            <!-- Mobile Nav -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  
             <div class="topnav">
-            <a href="#home" class="active"></a>
-            <div id="myLinks">
-                <li><a class="active" href="Index.html">Home</a></li>
-                <li><a href="#about_me">About Me</a></li> 
-                <li><a href="resume.html">Resume</a></li> 
-                <li><a href="projects.html">Portfolio</a></li> 
-                <li><a href="contacts.html">Contact</a></li> 
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-            </a>
-            </div> 
- 
-            <script>
-            function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-            x.style.display = "block";
-             }
-            } 
-            </script>
-            
+                    <a href="#home" class="active">Logo</a>
+                    <div id="myLinks">
+                      <a href="#news">News</a>
+                      <a href="#contact">Contact</a>
+                      <a href="#about">About</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+
+            <!-- Desktop Nav -->
             <div class="nav_buttons">
                 <li><a class="active" href="Index.html">Home</a></li>
                 <li><a href="#about_me">About Me</a></li> 
@@ -86,6 +73,7 @@
 
             <section class="section1" id="about_me">
                 <img src = "img/me.jpg" class = "about_me_profile"> 
+                <h6>Physicist, Computational Mathematician, &amp; Computer Scientist</h6>
                 <p>
                     I am a recent graduate of DePaul University with a Bachelor’s Degree in physics and applied mathematics. During my junior year at DePaul University, I joined a research group that studied transparent conducting oxides (TCO) and another research group where we studied thermodynamic properties of semiconductors at the nanoscale. These opportunities allowed for me to work at Argonne National Laboratory with in the Advanced Photon Source (APS). During my time as a research assistant I was able to, collect data, analyze data, and improve my skills in many fields. 
                 </p> <br>
@@ -95,12 +83,12 @@
             </section>
             <section class="section2">
                 <p>
-                        News
+                        Projects
                 </p>
             </section>
             <section class="section3">
                 <p>
-                         Background
+                        Interests
                 </p>
 
         </div>

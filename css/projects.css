@@ -355,7 +355,7 @@ header {
 }
 
 .postContainer {
-    margin: 20px 20px 0 0;  
+    margin: 20px 20px 20px 20px;  
     overflow: auto;		
 }
 
@@ -367,6 +367,7 @@ header {
     /*margin: 20px;*/
     background: #fff;
     cursor: pointer;
+    padding-left: 30px;
 }
 
 .screen img, a img {
