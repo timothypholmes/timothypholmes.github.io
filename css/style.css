@@ -708,6 +708,10 @@ header {
 }
 
 /* ----------------------------------- ----------------------------------- Contacts ----------------------------------- ----------------------------------- */
+.content > .timeline  h2 button{  
+        all: inherit;    
+      }
+
 .timeline{
     height: 200vh;
     background: white;
@@ -723,14 +727,14 @@ ul {
   
 #cta {
     padding-left: 5%;
-    padding-top: 50%; }
+    padding-top: 70%; }
   
 .deg180 {
     transform: rotate(180deg); }
   
 .deg90 {
     transform: rotate(90deg); }
-  
+/*
 .stop {
     background-color: #fff;
     border: 5px solid #000;
@@ -754,7 +758,7 @@ ul {
     font-weight: bold;
     letter-spacing: -0.2px;
     line-height: 1.05em; }
-  
+
 .stop-1-bottom {
     height: 20px;
     left: 25px;
@@ -915,7 +919,7 @@ ul {
   
 #stops {
     position: relative; }
-
+*/
 #brown-line {
     left: 0;
     position: relative;
@@ -924,6 +928,11 @@ ul {
         background-color: #744200; }
     #brown-line .arrow:after {
         background-color: #744200; }
+        /*
+    #brown-line .stop-1-top {
+        top: 24px;
+        z-index: 3;
+        left: 500px; }
     #brown-line .stop-4 {
         top: 24px;
         z-index: 3; }
@@ -936,10 +945,27 @@ ul {
     #brown-line .stop-7 {
         top: 560px;
         z-index: 3; }
-      
+      */
 #brown1 {
+    border-radius: 0 40px 0 0;
+    height: 40px;
+    left: 328px;
+    position: absolute;
+    top: -40px;
+    transform: rotate(180deg);
+    width: 40px;
+    z-index: 3; }
+    #brown1:before {
+        background: linear-gradient(to right, #4B0082 90%, #fff 0%);
+        border-radius: 0 20px 0 0;
+        content: " ";
+        display: block;
+        height: 20px;
+        left: 0;
+        position: absolute;
+        top: 20px;
+        width: 20px; }
 
-}
 #brown2 {
     top: -21px;
     height: 19px;
@@ -1024,26 +1050,6 @@ ul {
     position: absolute;
     top: 602px;
     width: 260px; } 
-    
-#brown9 {
-    border-radius: 0 40px 0 0;
-    height: 40px;
-    left: 328px;
-    position: absolute;
-    top: -40px;
-    transform: rotate(180deg);
-    width: 40px;
-    z-index: 3; }
-    #brown9:before {
-        background: linear-gradient(to right, #4B0082 90%, #fff 0%);
-        border-radius: 0 20px 0 0;
-        content: " ";
-        display: block;
-        height: 20px;
-        left: 0;
-        position: absolute;
-        top: 20px;
-        width: 20px; }
   
 #purple-line {
     left: 0;
@@ -1053,6 +1059,7 @@ ul {
       background-color: #4B0082; }
     #purple-line .arrow:after {
       background-color: #4B0082; }
+      /*
     #purple-line .stop-4 {
       top: 24px;
       z-index: 3; }
@@ -1065,10 +1072,27 @@ ul {
     #purple-line .stop-7 {
       top: 560px;
       z-index: 3; }
+      */
   
 #purple1 {
-    display: none;
-}
+    border-radius: 0 40px 0 0;
+    height: 50px;
+    left: 350px;
+    position: absolute;
+    top: -30px;
+    transform: rotate(180deg);
+    width: 40px;
+    z-index: 3; }
+    #purple1:before {
+        background: linear-gradient(to bottom, #744200 70%, #fff 0%);
+        border-radius: 0 20px 0 0;
+        content: " ";
+        display: block;
+        height: 30px;
+        left: 0;
+        position: absolute;
+        top: 20px;
+        width: 20px; }
   
 #purple2 {
     height: 20px;
@@ -1155,25 +1179,11 @@ ul {
     width: 250px; }
 
 #purple9 {
-    border-radius: 0 40px 0 0;
-    height: 40px;
+    height: 630px;
     left: 350px;
     position: absolute;
-    top: -20px;
-    transform: rotate(180deg);
-    width: 40px;
-    z-index: 3; }
-    #purple9:before {
-        background: linear-gradient(to top, #744200 90%, #fff 0%);
-        border-radius: 0 20px 0 0;
-        content: " ";
-        display: block;
-        height: 20px;
-        left: 0;
-        position: absolute;
-        top: 20px;
-        width: 20px; }
-
+    top: -200px;
+    width: 20px; }
   
 #orange-line {
     left: 0;
@@ -1183,6 +1193,7 @@ ul {
       background-color: #F37737; }
     #orange-line .arrow:after {
       background-color: #F37737; }
+      /*
     #orange-line .stop-4 {
       top: 24px;
       z-index: 2; }
@@ -1195,7 +1206,7 @@ ul {
     #orange-line .stop-7 {
       top: 340px;
       z-index: 3; }
-  
+        */
 #o1 {
     border-radius: 0 80px 0 0;
     height: 78px;
@@ -1303,44 +1314,45 @@ ul {
     top: 44px; }
     #green-line .route {
       background-color: #01A951; }
+      /*
     #green-line .stop-4 {
       top: 22px; }
     #green-line .stop-5-right {
       top: 133px; }
     #green-line .stop-6-right {
       top: 244px; }
-  
-#g1 {
+        */
+#green1 {
     height: 20px;
     left: 150px;
     position: absolute;
     width: 300px; }
-    #g1:after, #g1:before {
+    #green1:after, #green1:before {
       border: solid transparent;
       content: ' ';
       height: 0;
       position: absolute;
       width: 0; }
-    #g1:after {
+    #green1:after {
       border-left-color: #01A951;
       border-width: 18px;
       left: -32px;
       top: -8px;
       transform: rotate(180deg); }
   
-#g2 {
+#green2 {
     height: 20px;
     left: 450px;
     position: absolute;
     width: 248px; }
   
-#g3 {
+#green3 {
     border-radius: 0 60px 0 0;
     height: 58px;
     left: 696px;
     position: absolute;
     width: 60px; }
-    #g3:before {
+    #green3:before {
       background-color: #fff;
       border-radius: 0 40px 0 0;
       content: " ";
@@ -1351,7 +1363,7 @@ ul {
       top: 20px;
       width: 40px; }
   
-#g4 {
+#green4 {
     height: 600px;
     left: 736px;
     position: absolute;
@@ -1366,6 +1378,7 @@ ul {
       background-color: #F48BB6; }
     #pink-line .arrow:after {
       background-color: #F48BB6; }
+      /*
     #pink-line .arrow-1 {
       left: 138px; }
     #pink-line .arrow-2 {
@@ -1389,38 +1402,38 @@ ul {
       z-index: 3; }
     #pink-line .stop-8 {
       left: 22px; }
-  
-#p1 {
+  */
+#pink1 {
     height: 20px;
     left: 150px;
     position: absolute;
     width: 303px; }
-    #p1:after, #p1:before {
+    #pink1:after, #p1:before {
       border: solid transparent;
       content: ' ';
       height: 0;
       position: absolute;
       width: 0; }
-    #p1:after {
+    #pink1:after {
       border-left-color: #F48BB6;
       border-width: 18px;
       left: -32px;
       top: -8px;
       transform: rotate(180deg); }
   
-#p2 {
+#pink2 {
     height: 20px;
     left: 453px;
     position: absolute;
     width: 245px; }
   
-#p3 {
+#pink3 {
     border-radius: 0 40px 0 0;
     height: 38px;
     left: 694px;
     position: absolute;
     width: 40px; }
-    #p3:before {
+    #pink3:before {
       background-color: #fff;
       border-radius: 0 20px 0 0;
       content: " ";
@@ -1431,27 +1444,27 @@ ul {
       top: 20px;
       width: 20px; }
 
-#p4 {
+#pink4 {
     height: 396px;
     left: 714px;
     position: absolute;
     top: 38px;
     width: 20px; }
   
-#p5 {
+#pink5 {
     height: 396px;
     left: 394px;
     position: absolute;
     top: 38px;
     width: 20px; }
   
-#p6 {
+#pink6 {
     border-radius: 0 40px 0 0;
     height: 40px;
     left: 374px;
     position: absolute;
     width: 40px; }
-    #p6:before {
+    #pink6:before {
       background: linear-gradient(to right, #F37737 90%, #fff 0%);
       border-radius: 0 20px 0 0;
       content: " ";
@@ -1462,7 +1475,7 @@ ul {
       top: 20px;
       width: 20px; }
   
-#p7 {
+#pink7 {
     border-radius: 0 60px 0 0;
     height: 58px;
     left: 394px;
@@ -1470,7 +1483,7 @@ ul {
     top: 432px;
     transform: rotate(180deg);
     width: 60px; }
-    #p7:before {
+    #pink7:before {
       background-color: #fff;
       border-radius: 0 40px 0 0;
       content: " ";
@@ -1481,7 +1494,7 @@ ul {
       top: 20px;
       width: 40px; }
   
-#p8 {
+#pink8 {
     border-radius: 0 60px 0 0;
     height: 58px;
     left: 675px;
@@ -1489,7 +1502,7 @@ ul {
     top: 431px;
     transform: rotate(90deg);
     width: 60px; }
-    #p8:before {
+    #pink8:before {
       background-color: #fff;
       border-radius: 0 40px 0 0;
       content: " ";
@@ -1500,7 +1513,7 @@ ul {
       top: 20px;
       width: 40px; }
   
-#p9 {
+#pink9 {
     height: 20px;
     left: 453px;
     position: absolute;
