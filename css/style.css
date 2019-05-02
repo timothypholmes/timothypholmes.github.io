@@ -83,38 +83,41 @@ header {
 }
 
 .section1 {
-    height: 100vh;
-    background: white;
+    height: auto;
+    background: lightgray;
     box-sizing: border-box;
 }
 
 .section1 > h6 {
     color: black;
     position: center;
-    padding-left: 20%;
-    padding-right: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 10%; 
+    font-size: 35px;
+    font-weight: 1;
 }
 
 .section1 > p {
     color: black;
     position: center;
-    padding-left: 20%;
-    padding-right: 30%;
-    padding-top: 10%; 
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%; 
+    padding-bottom: 5%; 
 }
 
 .section1 > .about_me_profile {
-    height: 50%;
-    width: 25%;
+    width:300px; /* you can use % */
+    height: auto;
     float: left;
     padding-left: 10%;
     padding-top: 10%; 
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .section2 {
-    height: 50vh;
+    height: 10vh;
     background: whitesmoke;
 }
 
@@ -391,10 +394,23 @@ header {
 
 /* ----------------------------------- Resume ----------------------------------- */
 
-.resume{
-    height: 20vh;
+.resume {
+    height: 10vh;
     background: white;
     box-sizing: border-box;
+}
+
+.resume h2 {
+    font-size: 50px;
+    font-weight: 1;
+    padding: 10px 10px 0px 50px;
+    float: left;
+}
+
+.resume a {
+    position: relative;
+    padding: 15px 0px 0px 100px;
+    float: left;
 }
 
 /*----------------------------------- Mobile ----------------------------------- */
@@ -708,12 +724,35 @@ header {
 }
 
 /* ----------------------------------- ----------------------------------- Contacts ----------------------------------- ----------------------------------- */
-.content > .timeline  h2 button{  
-        all: inherit;    
-      }
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+  
+/* Style the collapsible content. Note: hidden by default */
+.timeline {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+} 
 
 .timeline{
-    height: 200vh;
+    height: 300vh;
     background: white;
     min-width: 800px;
 }
