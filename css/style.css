@@ -757,6 +757,11 @@ header {
     min-width: 800px;
 }
 
+/* Train text */ 
+  
+
+/* Train Timeline*/ 
+
 li {
     list-style: none; }
   
@@ -773,6 +778,27 @@ ul {
   
 .deg90 {
     transform: rotate(90deg); }
+
+.text_box1 {
+    margin: 30;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    left: 625px;
+    position: absolute;
+    top: -500px;
+}
+    
+.text_box2 {
+    margin: 30;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    left: 625px;
+    position: absolute;
+    top: -300px;
+}
+    
 /*
 .stop {
     background-color: #fff;
