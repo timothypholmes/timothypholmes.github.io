@@ -56,6 +56,22 @@
                 <li><a href="projects.html">Portfolio</a></li> 
                 <li><a href="contacts.html">Contact</a></li> 
             </div>
+
+
+
+<script>
+    $(document).ready(function(){
+      $(window).scroll(function() { // check if scroll event happened
+        if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+          $(".topnav").css("background-color", "#f8f8f8"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+        } else {
+          $(".topnav").css("background-color", "transparent"); // if not, change it back to transparent
+        }
+      });
+    });
+</script>
+
+
             
             <!-- End NavBar -->
 
@@ -94,7 +110,7 @@
                 <button class="collapsible">Open Experience Timeline</button>
                 <div class=timeline>
                 <body>
-                <div id="cta"></div>
+                <div id="cta">
                         <div class="text_box1">
                           <h2>2019</h2>
                           <p>hi</p>
