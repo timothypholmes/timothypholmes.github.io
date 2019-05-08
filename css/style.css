@@ -104,7 +104,7 @@ header {
     width: 100%;
     position: relative;
     top: 500px;
-    background: #ebebeb;
+    background: whitesmoke;
     padding-bottom: 250px; /* Height of footer */
     min-width: 1000px; 
 }
@@ -144,16 +144,12 @@ header {
 }
 
 .section2 {
-    height: 10vh;
+    height: 40vh;
     background: whitesmoke;
 }
 
-.section2 > p {
-    color: black;
-}
-
 .section3 {
-    height: 50vh;
+    height: 100vh;
     background: lightgray;
 }
 
@@ -163,10 +159,19 @@ header {
 
 .section4 {
     height: 50vh;
-    background: lightgray;
+    background: whitesmoke;
 }
 
 .section4 > p {
+    color: black;
+}
+
+.section5 {
+    height: 50vh;
+    background: lightgray;
+}
+
+.section5 > p {
     color: black;
 }
 
@@ -404,22 +409,58 @@ header {
 /* ----------------------------------- Resume ----------------------------------- */
 
 .resume {
-    height: 10vh;
-    background: white;
+    height: 40vh;
+    background: whitesmoke;
     box-sizing: border-box;
 }
 
 .resume h2 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 1;
-    padding: 10px 10px 0px 50px;
-    float: left;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.resume a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;  
+    padding-top: 30px; 
 }
 
 .resume a {
     position: relative;
-    padding: 15px 0px 0px 100px;
-    float: left;
+    height: 150px;
+    width: 150px;
+}
+.resume a::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.resume a:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
 }
 
 /* ----------------------------------- Projects ----------------------------------- */
@@ -431,26 +472,73 @@ header {
     padding: 10px 0 10px 0;
 }
 
+.row {
+    display: flex;
+}
+
 .projects {
-    background: white;
-    border: 1px solid white;
-    float: left;
-    width: 180px;
-  }
-  
-  .projects:hover {
-    border: 1px solid #777;
+    flex: 33.33%;
+    padding: 15px;
+}
+
+.section3 .projects:hover img {
     opacity: 0.5;
-  }
+}
   
-  .projects img {
-    width: 100%;
-    height: auto;
-  }
+.projects img {
+    max-width: 100%;
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
   
-  .desc {
+.desc {
+    background: white;
     padding: 15px;
     text-align: center;
+    width: 300px;
+    height: auto;
+}
+
+.more-projects {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+} 
+
+.more-projects{
+    height: auto;
+    background: gray;
+    min-width: 800px;
+}
+
+.content-2{
+    background: lightgray;
+}
+
+.collapsible-projects {
+    background-color: lightgray;
+    color: #222226;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 1;
+    padding: 18px;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #222226;
+    text-align: center;
+    outline: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.active, .collapsible-projects:hover {
+    background-color: #222226;
+    color: whitesmoke;
 }
 
 /*
@@ -495,7 +583,21 @@ header {
 
 /* ----------------------------------- Interests ----------------------------------- */
 
+.section4 > h6 {
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
 /* ----------------------------------- my philosophy ----------------------------------- */
+
+.section5 > h6 {
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
 
 /* ----------------------------------- Contacts ----------------------------------- */
 
@@ -829,22 +931,21 @@ header {
     /* ----------------------------------- Resume ----------------------------------- */
 
     .resume {
-        height: 20vh;
+        height: 30vh;
         background: white;
         box-sizing: border-box;
     }
     
-    .resume h2 {
+    .content > .resume h2 {
         font-size: 25px;
         font-weight: 1;
         padding: 10px 10px 0px 10px; /*Top Right Bottom Left */ 
-        float: left;
+        text-align: center;
     }
     
-    .resume a {
-        position: relative;
-        padding: 15px 0px 0px 20px;
-        float: left;
+    .content > .resume > a {
+        position: center;
+        display: block;
     }
 
     /* ----------------------------------- Contacts ----------------------------------- */
@@ -854,24 +955,30 @@ header {
 /* ----------------------------------- ----------------------------------- Contacts ----------------------------------- ----------------------------------- */
 
 /* Style the button that is used to open and close the collapsible content */
+
 .collapsible {
-    background-color: #eee;
-    color: #444;
+    background-color: whitesmoke;
+    color: #222226;
     cursor: pointer;
+    font-size: 20px;
+    font-weight: 1;
     padding: 18px;
-    width: 100%;
-    border: none;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #222226;
     text-align: center;
     outline: none;
-    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-  
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
 .active, .collapsible:hover {
-    background-color: #ccc;
+    background-color: #222226;
+    color: white;
 }
-  
-/* Style the collapsible content. Note: hidden by default */
+ 
 .timeline {
     padding: 0 18px;
     display: none;
