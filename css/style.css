@@ -172,7 +172,7 @@ header {
 
 /* ----------------------------------- Nav Bar ----------------------------------- */
 .nav {   
-    background-color: #222226;
+    background-color: transparent;
     color: black;
     list-style: none;
     text-align: right;
@@ -203,6 +203,14 @@ header {
 
 .nav > .nav_buttons > li:hover {
     opacity: 1;
+}
+
+.nav {
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .topnav {
@@ -383,7 +391,6 @@ header {
     display: inline-block;
     padding: 0px 15px 0px 15px;
     color: white;
-
 }
 
 .footer > .footer_contacts:hover a {
@@ -459,6 +466,43 @@ header {
     padding: 15px 0px 0px 100px;
     float: left;
 }
+
+/* ----------------------------------- Interests ----------------------------------- */
+
+/* ----------------------------------- Motive, goals, ideology ----------------------------------- */
+
+/* ----------------------------------- Contacts ----------------------------------- */
+
+.contacts-page > h6 {
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+.contacts-page{
+    background-color: none;
+    list-style: none;
+    position: center;
+    text-align: center;
+}
+
+.contacts-page > a {  
+    text-decoration: none;
+    display: inline-block;
+    padding: 40px 30px 40px 30px;
+    color: black;
+    font-size: 45px;
+}
+
+.contacts-page:hover a {
+    opacity: 0.2;
+}
+
+.contacts-page a:hover {
+    opacity: 1;
+}
+
 
 /*----------------------------------- Mobile ----------------------------------- */
 

@@ -1,3 +1,9 @@
+/* Start at top on Index.html */
+$(document).ready(function(){
+  $(this).scrollTop(0);
+  });
+
+/* Expand content sections */
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -13,6 +19,7 @@ for (i = 0; i < coll.length; i++) {
   });
 } 
 
+/* Scrolling turns nav bar transparent --> gray */
 $(window).scroll(function () {
   if ($(window).scrollTop() >= 500) {
   $('.nav').css('background','#222226');
@@ -26,6 +33,7 @@ $(document).on('scroll', function (e) {
   $('.banner').css('opacity', ($(document).scrollTop() / 500));});
 */
 
+/* For mobile */
 function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
