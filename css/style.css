@@ -292,12 +292,12 @@ header {
 
 /* ----------------------------------- Nav bar picture  ----------------------------------- */
 .sideProfile {   
-      text-align: center;
-      display: block;
-      border-radius: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      height: 75px;
+    text-align: center;
+    display: block;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
 }
 
 /* ----------------------------------- Footer ----------------------------------- */
@@ -401,13 +401,59 @@ header {
     opacity: 1;
 }
 
-/* ----------------------------------- Projects ----------------------------------- */
-.projects { 
-    height: auto;
-    background: lightgray;
+/* ----------------------------------- Resume ----------------------------------- */
+
+.resume {
+    height: 10vh;
+    background: white;
     box-sizing: border-box;
 }
 
+.resume h2 {
+    font-size: 50px;
+    font-weight: 1;
+    padding: 10px 10px 0px 50px;
+    float: left;
+}
+
+.resume a {
+    position: relative;
+    padding: 15px 0px 0px 100px;
+    float: left;
+}
+
+/* ----------------------------------- Projects ----------------------------------- */
+
+.section3 > h6 {
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.projects {
+    background: white;
+    border: 1px solid white;
+    float: left;
+    width: 180px;
+  }
+  
+  .projects:hover {
+    border: 1px solid #777;
+    opacity: 0.5;
+  }
+  
+  .projects img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/*
 .postContainer {
     margin: 20px 20px 0 0;  
     overflow: auto;		
@@ -418,7 +464,7 @@ header {
   	height: 400px;
 	float: left;
 	overflow: hidden;
-    /*margin: 20px;*/
+    margin: 20px;
     background: lightgray;
     cursor: pointer;
 }
@@ -445,31 +491,11 @@ header {
 .projects > .postContainer > .postContent > a:hover{
     opacity: 0.5;
 }
-
-/* ----------------------------------- Resume ----------------------------------- */
-
-.resume {
-    height: 10vh;
-    background: white;
-    box-sizing: border-box;
-}
-
-.resume h2 {
-    font-size: 50px;
-    font-weight: 1;
-    padding: 10px 10px 0px 50px;
-    float: left;
-}
-
-.resume a {
-    position: relative;
-    padding: 15px 0px 0px 100px;
-    float: left;
-}
+*/
 
 /* ----------------------------------- Interests ----------------------------------- */
 
-/* ----------------------------------- Motive, goals, ideology ----------------------------------- */
+/* ----------------------------------- my philosophy ----------------------------------- */
 
 /* ----------------------------------- Contacts ----------------------------------- */
 
@@ -835,7 +861,7 @@ header {
     padding: 18px;
     width: 100%;
     border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
     font-size: 15px;
 }
