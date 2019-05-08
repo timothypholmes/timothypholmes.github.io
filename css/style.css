@@ -194,7 +194,6 @@ header {
 .nav > .nav_buttons > li a {   
     text-decoration: none;
     color: white;
-    border-bottom: 0.1px solid white;
     opacity: 1;
 }
 
