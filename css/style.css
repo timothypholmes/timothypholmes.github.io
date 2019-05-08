@@ -10,7 +10,6 @@ body {
 /* ----------------------------------- Header ----------------------------------- */
 header {
     height: 60px;
-    background: #919191;
     width: 100%;
     z-index: 10;
     position: fixed;
@@ -56,6 +55,7 @@ header {
     transform: translate(-50%, -50%);
     color: whitesmoke;
     font-size: 70px;
+    min-width: 200px;
 }
 
 .banner > h6:hover { 
@@ -70,6 +70,33 @@ header {
     transform: translate(-50%, -50%);
     color: whitesmoke;
     font-size: 20px;
+    min-width: 200px;
+}
+
+.banner > .banner-contacts{
+    background-color: none;
+    list-style: none;
+    position: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: 365px;
+    transform: translate(-50%, -50%);
+}
+
+.banner > .banner-contacts > a {  
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+}
+
+.banner > .banner-contacts:hover a {
+    opacity: .2;
+}
+
+.banner > .banner-contacts a:hover {
+    opacity: 1;
 }
 
 /* ----------------------------------- Content ----------------------------------- */
@@ -140,8 +167,7 @@ header {
     color: black;
     list-style: none;
     text-align: right;
-    padding: 15px 0 15px 0;
-    border-bottom: 2px solid black;
+    padding: 0px 0px 18px 0px;
     opacity: 1;
 }
 
@@ -151,7 +177,7 @@ header {
 
 .nav > .nav_buttons > li {  
     display: inline-block;
-    padding: 0 15px 0 15px;
+    padding: 10px 20px 0px 20px; /*Top Right Bottom Left */ 
     font-size: 14px;  
     opacity: 1;
 }
@@ -175,17 +201,18 @@ header {
     display: none;
 }
 
-.nav {
-    background-color: rgba(0,0,0,0);
-    border: 0;
-    box-shadow: none;
-    z-index: 999;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
-    -moz-transition: background .5s ease-in-out, opacity .5s ease;
-    transition: background .5s ease-in-out, opacity .5s ease;
-}
+.x-navbar.x-navbar-fixed-top {
+    background: transparent;
+  }
+  
+.x-navbar.x-navbar-fixed-top.x-navbar-solid {
+    background: #fff;
+  }
+  
+.home .x-slider-container {
+    margin-top: -80px;
+  }
+
 /* Blur
 .nav > .nav_buttons:hover li {
     filter:blur(3px);
@@ -233,7 +260,7 @@ header {
     color:white;
     float: left;
     padding-left: 0px;
-    padding-top: 0px;
+    padding-top: 10px;
     font-size: 2vw;
     font-weight: 100;  
 }
@@ -244,7 +271,7 @@ header {
 }
 
 .logo_name > a:hover { 
-  color:blue; 
+  color: lightskyblue; 
 }
 
 /* ----------------------------------- Nav bar picture  ----------------------------------- */
@@ -439,8 +466,7 @@ header {
     
     /* ----------------------------------- Header ----------------------------------- */
     header {
-        height: 60px;
-        background: #919191;
+        height: 10px;
         width: 100%;
         z-index: 10;
         position: fixed;
@@ -551,17 +577,8 @@ header {
     }
     
     /* ----------------------------------- Nav Bar ----------------------------------- */
-    .nav {   
-        background-color: #222226;
-        color: black;
-        list-style: none;
-        text-align: right;
-        padding: 20px 0 20px 0;
-        border-bottom: 2px solid black;
-        opacity: 0.8;
-    }
 
-    .nav_buttons {
+    .nav_buttons{ 
         display: none;
     }
 
@@ -582,7 +599,7 @@ header {
         font-size: 17px;
         display: block;
     }
-
+  
     .topnav a.icon {
         background: black;
         display: block;
@@ -595,12 +612,6 @@ header {
         background-color: #ddd;
         color: black;
     }
-  
-
-    .active {
-        background-color: #4CAF50;
-        color: white;
-    } 
 
     /* ----------------------------------- Logo Nav Bar ----------------------------------- */
     .logo {
@@ -624,17 +635,25 @@ header {
     }
     
     .logo_name > a:hover { 
-      color:blue; 
+      color:lightblue; 
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo_name{
+        display: none;
     }
     
     /* ----------------------------------- Side Bar ----------------------------------- */
     .sideProfile {   
-          text-align: center;
-          display: block;
-          border-radius: 100%;
-          margin-left: auto;
-          margin-right: auto;
-          height: 0px;
+        text-align: center;
+        display: block;
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 0px;
     }
     
     /* ----------------------------------- Footer ----------------------------------- */
@@ -730,6 +749,25 @@ header {
     /* ----------------------------------- Projects ----------------------------------- */
 
     /* ----------------------------------- Resume ----------------------------------- */
+
+    .resume {
+        height: 20vh;
+        background: white;
+        box-sizing: border-box;
+    }
+    
+    .resume h2 {
+        font-size: 25px;
+        font-weight: 1;
+        padding: 10px 10px 0px 10px; /*Top Right Bottom Left */ 
+        float: left;
+    }
+    
+    .resume a {
+        position: relative;
+        padding: 15px 0px 0px 20px;
+        float: left;
+    }
 
     /* ----------------------------------- Contacts ----------------------------------- */
 
