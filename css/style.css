@@ -161,6 +161,15 @@ header {
     color: black;
 }
 
+.section4 {
+    height: 50vh;
+    background: lightgray;
+}
+
+.section4 > p {
+    color: black;
+}
+
 /* ----------------------------------- Nav Bar ----------------------------------- */
 .nav {   
     background-color: #222226;
