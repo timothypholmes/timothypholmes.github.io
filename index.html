@@ -260,9 +260,7 @@
           </div>
         </body>
         </div>
-
         <script type="text/javascript" src="js/main.js"></script>
-    
 
       <section class="section3" id="projects">
           <h6>Projects</h6>
@@ -288,11 +286,11 @@
               <div class="desc">Add a description of the image here</div>
             </div>
           </div>
-            
-        
+        </section>
 
-      </section>
-
+      </div>
+      <!-- End Content-->
+      <!-- Begin Content-->
       <div class="content-2">
       <button class="collapsible-projects">View More Projects &#8595;</button>
       <div class=extended-projects>
@@ -322,11 +320,24 @@
               </div>
             </div>
          </div>
-        </div>
       </body>
       </div>
 
-      <script type="text/javascript" src="js/main.js"></script>
+      <script>
+      var coll = document.getElementsByClassName("collapsible-projects");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+        content.style.display = "block";
+        }
+        });
+        }  </script>
 
       <section class="section4" id="interests">
         <h6>Interests and Goals</h6>
@@ -334,9 +345,10 @@
 
       <section class="section5" id="philosophy">
           <h6>My Heuristics</h6>
-        </section>
-
+      </section>
     </div>
+
+    
     <!-- End Content -->
 
     <!-- Footer -->

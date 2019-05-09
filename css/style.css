@@ -204,26 +204,14 @@ span {
     background: lightgray;
 }
 
-.section3 > p {
-    color: black;
-}
-
 .section4 {
     height: 50vh;
     background: whitesmoke;
 }
 
-.section4 > p {
-    color: black;
-}
-
 .section5 {
     height: 50vh;
     background: lightgray;
-}
-
-.section5 > p {
-    color: black;
 }
 
 /* ----------------------------------- Nav Bar ----------------------------------- */
@@ -331,7 +319,7 @@ span {
 .logo_name {
     color:white;
     float: left;
-    padding-left: 0px;
+    padding-left: 20px;
     padding-top: 10px;
     font-size: 2vw;
     font-weight: 100;  
@@ -353,7 +341,7 @@ span {
     border-radius: 100%;
     margin-left: auto;
     margin-right: auto;
-    height: 75px;
+    height: 45px;
 }
 
 /* ----------------------------------- Footer ----------------------------------- */
@@ -568,8 +556,6 @@ span {
 .content-2{
     width: 100%;
     position: relative;
-    top: 0px;
-    padding-bottom: 0px; /* Height of footer */
     min-width: 1000px; 
     background: lightgray;
 }
@@ -590,8 +576,6 @@ span {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    top: 0;
-    transition: top ease 0.5s;
 }
 
 .active, .collapsible-projects:hover {
@@ -607,7 +591,7 @@ span {
 }
 
 .extended-projects{
-    height: auto;
+    height: 300vh;
     background: white;
     min-width: 800px;
 }
