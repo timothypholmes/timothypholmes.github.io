@@ -1850,21 +1850,21 @@ ul {
     .banner > h6 {
         font-family: monaco; 
         overflow: hidden; 
-        border-right: .1em solid white; 
+        border-right: .15em solid white; 
         white-space: nowrap; 
         margin: 0 auto; 
-        letter-spacing: .1em; 
+        letter-spacing: .10em; 
         animation: 
-          typing-h2 2s steps(20, end),
-          blinking-cursor-h2 .5s step-end infinite;
+          typing 3.5s steps(30, end),
+          blinking-cursor .5s step-end infinite;
     }
     
-    @keyframes typing-h2 {
-        from { width: 0% }
-        to { width: 50% }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
     }
       
-    @keyframes blinking-cursor-h2 {
+    @keyframes blinking-cursor {
         from, to { border-color: transparent }
         50% { border-color: white; }
     }
