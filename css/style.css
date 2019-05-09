@@ -200,23 +200,26 @@ span {
 }
 
 .section3 {
-    height: 90vh;
+    height: auto;
     background: lightgray;
 }
 
 .section4 {
     height: 50vh;
     background: whitesmoke;
+    min-width: 1000px;
 }
 
 .section5 {
     height: 50vh;
     background: lightgray;
+    min-width: 1000px;
 }
 
 .section6 {
     height: 50vh;
     background: whitesmoke;
+    min-width: 1000px;
 }
 
 /* ----------------------------------- Nav Bar ----------------------------------- */
@@ -519,6 +522,7 @@ span {
 .row {
     display: flex;
     padding: 0px 10px 150px 10px;
+    max-width: 1200px;
 }
 
 .projects {
@@ -597,7 +601,6 @@ span {
     background: lightgray;
     top: 500px;
     padding-bottom: 250px; /* Height of footer */
-    min-width: 0px;
 }
 
 .collapsible-projects {
@@ -634,6 +637,7 @@ span {
     height: auto;
     background: lightgray;
     min-width: 800px;
+    max-width: 1200px;
 }
 
 .projects-2 img {
@@ -699,6 +703,9 @@ span {
     font-weight: 100;
     text-align: center;
     padding: 10px 0 10px 0;
+}
+.presentations {
+    min-width: 800px;
 }
 
 .presentations p{
