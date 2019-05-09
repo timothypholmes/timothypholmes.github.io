@@ -1941,6 +1941,16 @@ ul {
         background: lightgray;
         box-sizing: border-box;
     }
+
+    .section1 > h6 {
+        color: black;
+        position: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10%; 
+        font-size: 20px;
+        font-weight: 1;
+    }
     
     .section1 > p {
         color: black;
@@ -1949,16 +1959,16 @@ ul {
     }
     
     .section1 > .about_me_profile {
-        height: 40%;
-        width: 45%;
+        width: 150px; /* you can use % */
+        height: auto;
         float: left;
         padding-left: 10%;
         padding-top: 10%; 
-        margin-right: 30px;
+        margin-right: 50px;
     }
     
     .section2 {
-        height: 50vh;
+        height: 70vh;
         background: whitesmoke;
     }
     
@@ -1968,7 +1978,7 @@ ul {
     }
 
     .section4 {
-        height: 50vh;
+        height: auto;
         background: whitesmoke;
         min-width: 0px;
     }
@@ -2166,7 +2176,7 @@ ul {
     /* ----------------------------------- Resume ----------------------------------- */
 
     .resume {
-        height: 30vh;
+        height: 50vh;
         background: white;
         box-sizing: border-box;
     }
@@ -2194,7 +2204,7 @@ ul {
 }
 
 .resume h2 {
-    font-size: 45px;
+    font-size: 28px;
     font-weight: 1;
     padding: 20px 0px 20px 0px;
     text-align: center;
@@ -2245,7 +2255,7 @@ ul {
 /* ----------------------------------- Projects ----------------------------------- */
 
 .section3 > h6 {
-    font-size: 45px;
+    font-size: 28px;
     font-weight: 100;
     text-align: center;
     padding: 10px 0 10px 0;
@@ -2427,12 +2437,14 @@ ul {
 
 /* ----------------------------------- Presentations and Papers ----------------------------------- */
 
-.presentations{
+.presentations {
     width: 100%;
     min-width: 0px;
-  }
+    height: auto;
+}
+
 .section4 > h6 {
-    font-size: 45px;
+    font-size: 28px;
     font-weight: 100;
     text-align: center;
     padding: 10px 0 10px 0;
@@ -2448,11 +2460,6 @@ ul {
     padding: 10px 50px 50px 50px; 
 }
 
-.column {
-    float: left;
-    width: 50%;
-}
-
 .presentations:hover a {
     opacity: .2;
 }
@@ -2464,7 +2471,7 @@ ul {
 /* ----------------------------------- Interests ----------------------------------- */
 
 .section5 > h6 {
-    font-size: 45px;
+    font-size: 28px;
     font-weight: 100;
     text-align: center;
     padding: 10px 0 10px 0;
@@ -2486,7 +2493,7 @@ ul {
 /* ----------------------------------- my philosophy ----------------------------------- */
 
 .section6 > h6 {
-    font-size: 45px;
+    font-size: 28px;
     font-weight: 100;
     text-align: center;
     padding: 10px 0 10px 0;
