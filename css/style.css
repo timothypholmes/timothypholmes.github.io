@@ -27,6 +27,7 @@ header {
     position: fixed;
     top: 60px;
     background: gray;
+    min-width: 800px;
 }
 
 .banner > .banner-image { 
@@ -104,52 +105,23 @@ header {
 .banner > h6 {
     font-family: monaco; 
     overflow: hidden; 
-    border-right: .15em solid white; 
+    border-right: .1em solid white; 
     white-space: nowrap; 
     margin: 0 auto; 
-    letter-spacing: .10em; 
+    letter-spacing: .1em; 
     animation: 
-      typing 3.5s steps(30, end),
-      blinking-cursor .5s step-end infinite;
+      typing-h2 2s steps(20, end),
+      blinking-cursor-h2 .5s step-end infinite;
 }
 
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+@keyframes typing-h2 {
+    from { width: 0% }
+    to { width: 50% }
 }
   
-@keyframes blinking-cursor {
+@keyframes blinking-cursor-h2 {
     from, to { border-color: transparent }
     50% { border-color: white; }
-}
-
-@import "compass/css3";
-
-span {
-      font-family: monospace;
-      font-size: 2em;
-  }
-  span:after {
-      content:"_";
-      opacity: 0;
-      animation: cursor 1s infinite;
-  }
-  @keyframes cursor {
-      0% {
-          opacity: 0;
-      }
-      40% {
-          opacity: 0;
-      }
-      50% {
-          opacity: 1;
-      }
-      90% {
-          opacity: 1;
-      }
-      100% {
-          opacity: 0;
-      }
 }
 
 /* ----------------------------------- Content ----------------------------------- */
@@ -1878,52 +1850,23 @@ ul {
     .banner > h6 {
         font-family: monaco; 
         overflow: hidden; 
-        border-right: .15em solid white; 
+        border-right: .1em solid white; 
         white-space: nowrap; 
         margin: 0 auto; 
-        letter-spacing: .10em; 
+        letter-spacing: .1em; 
         animation: 
-          typing 3.5s steps(30, end),
-          blinking-cursor .5s step-end infinite;
+          typing-h2 2s steps(20, end),
+          blinking-cursor-h2 .5s step-end infinite;
     }
     
-    @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
+    @keyframes typing-h2 {
+        from { width: 0% }
+        to { width: 50% }
     }
       
-    @keyframes blinking-cursor {
+    @keyframes blinking-cursor-h2 {
         from, to { border-color: transparent }
         50% { border-color: white; }
-    }
-    
-    @import "compass/css3";
-    
-    span {
-          font-family: monospace;
-          font-size: 2em;
-      }
-      span:after {
-          content:"_";
-          opacity: 0;
-          animation: cursor 1s infinite;
-      }
-      @keyframes cursor {
-          0% {
-              opacity: 0;
-          }
-          40% {
-              opacity: 0;
-          }
-          50% {
-              opacity: 1;
-          }
-          90% {
-              opacity: 1;
-          }
-          100% {
-              opacity: 0;
-          }
     }
     
     /* ----------------------------------- Content ----------------------------------- */
