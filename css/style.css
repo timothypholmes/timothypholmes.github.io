@@ -701,6 +701,29 @@ span {
     padding: 10px 0 10px 0;
 }
 
+.presentations p{
+   padding: 50px 50px 10px 50px;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.presentations a {
+    padding: 10px 50px 50px 50px; 
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.presentations:hover a {
+    opacity: .2;
+}
+
+.presentations a:hover {
+    opacity: 1;
+}
+
 /* ----------------------------------- Interests ----------------------------------- */
 
 .section5 > h6 {
@@ -719,6 +742,9 @@ span {
     padding: 10px 0 10px 0;
 }
 
+.heuristics p{
+    text-align: center;
+}
 /* ----------------------------------- Contacts ----------------------------------- */
 
 .contacts-page > h6 {
