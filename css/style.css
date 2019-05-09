@@ -200,7 +200,7 @@ span {
 }
 
 .section3 {
-    height: 80vh;
+    height: 90vh;
     background: lightgray;
 }
 
@@ -212,6 +212,11 @@ span {
 .section5 {
     height: 50vh;
     background: lightgray;
+}
+
+.section6 {
+    height: 50vh;
+    background: whitesmoke;
 }
 
 /* ----------------------------------- Nav Bar ----------------------------------- */
@@ -354,7 +359,7 @@ span {
     /*background-color: whitesmoke;*/
     background-color: #222226;
     text-align: 20px;
-    border-top: 2px solid whitesmoke;
+    border-top: 2px solid gray;
     min-width: 1000px; 
 }
 
@@ -513,6 +518,7 @@ span {
 
 .row {
     display: flex;
+    padding: 0px 10px 150px 10px;
 }
 
 .projects {
@@ -520,8 +526,12 @@ span {
     padding: 15px;
 }
 
+.section3 .projects img {
+    opacity: 0.3;
+}
+
 .section3 .projects:hover img {
-    opacity: 0.5;
+    opacity: 1;
 }
   
 .projects img {
@@ -532,28 +542,55 @@ span {
     margin: 0 auto;
 }
   
-.desc {
-    background: white;
-    padding: 15px 15px 15px 15px;
+.description {
+    background: #222226;
     text-align: center;
-    width: 300px;
-    height: auto;
+    max-width: 100%;
+    height: 40%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    color: white;
 }
 
-.more-projects {
+.extended-projects {
     padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
 } 
 
-.more-projects{
+.extended-projects {
     height: auto;
     background: gray;
     min-width: 800px;
 }
 
-.content-2{
+.projects-2 {
+    flex: 33.33%;
+    padding: 15px;
+}
+
+.projects-2 img {
+    max-width: 100%;
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.projects-2 .desc {
+    background: #222226;
+    text-align: center;
+    max-width: 100%;
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    color: white;
+}
+
+.content-2 {
     width: 100%;
     position: relative;
     min-width: 1000px; 
@@ -594,7 +631,7 @@ span {
 }
 
 .extended-projects{
-    height: 100vh;
+    height: auto;
     background: lightgray;
     min-width: 800px;
 }
@@ -655,7 +692,7 @@ span {
 }
 */
 
-/* ----------------------------------- Interests ----------------------------------- */
+/* ----------------------------------- Presentations and Papers ----------------------------------- */
 
 .section4 > h6 {
     font-size: 45px;
@@ -664,9 +701,18 @@ span {
     padding: 10px 0 10px 0;
 }
 
-/* ----------------------------------- my philosophy ----------------------------------- */
+/* ----------------------------------- Interests ----------------------------------- */
 
 .section5 > h6 {
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+/* ----------------------------------- my philosophy ----------------------------------- */
+
+.section6 > h6 {
     font-size: 45px;
     font-weight: 100;
     text-align: center;
