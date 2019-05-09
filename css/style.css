@@ -1829,7 +1829,7 @@ ul {
         transform: translate(-50%, -50%);
         color: white;
         font-size: 28.5px;
-        min-width: 200px;
+        min-width: 0px;
     }
     
     .banner > h6:hover { 
@@ -1844,7 +1844,7 @@ ul {
         transform: translate(-50%, -50%);
         color: white;
         font-size: 12px;
-        min-width: 200px;
+        min-width: 0px;
     }
     
     .banner > .banner-contacts{
@@ -1932,7 +1932,7 @@ ul {
         position: relative;
         top: 500px;
         background: #ebebeb;
-        padding-bottom: 250px; /* Height of footer */
+        padding-bottom: 0px; /* Height of footer */
         min-width: 0px;
     }
     
@@ -1970,16 +1970,19 @@ ul {
     .section4 {
         height: 50vh;
         background: whitesmoke;
+        min-width: 0px;
     }
 
     .section5 {
         height: auto;
         background: lightgray;
+        min-width: 0px;
     }
 
     .section6 {
         height: 50vh;
         background: whitesmoke;
+        min-width: 0px;
     }
 
     /* ----------------------------------- Nav Bar ----------------------------------- */
@@ -2322,11 +2325,12 @@ ul {
 }
 
 .content-2 {
-    width: 100%;
     position: relative;
     background: lightgray;
     top: 500px;
     padding-bottom: 250px; /* Height of footer */
+    width: 100%;
+    min-width: 0px;
 }
 
 .collapsible-projects {
@@ -2423,6 +2427,10 @@ ul {
 
 /* ----------------------------------- Presentations and Papers ----------------------------------- */
 
+.presentations{
+    width: 100%;
+    min-width: 0px;
+  }
 .section4 > h6 {
     font-size: 45px;
     font-weight: 100;
