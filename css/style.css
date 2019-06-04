@@ -517,6 +517,7 @@ header {
     width: auto;
     display: block;
     margin: 0 auto;
+    object-fit: cover;
 }
   
 .description {
@@ -554,6 +555,7 @@ header {
     width: auto;
     display: block;
     margin: 0 auto;
+    object-fit: cover;
 }
 
 .projects-2 .desc {
