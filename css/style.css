@@ -838,15 +838,12 @@ ul {
     background-color: black;
     color: white;
     border: 1px solid white;
-    opacity: 0.99;
-    left: 625px;
-    top: 500px;
+    opacity: 0.90;
     width: 400px;
     padding: 5px 5px 5px 5px;
-}
-
-.text_box1 > p {
-    text-align: right;
+    left: 328px;
+    position: absolute;
+    top: 1000px;
 }
     
 .text_box2 {
@@ -859,6 +856,69 @@ ul {
     top: 1300px;
     width: 400px;
     padding: 5px 5px 5px 5px;
+    left: 328px;
+    position: absolute;
+    top: 1100px;
+}
+
+.text_box3 {
+    margin: 30;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.99;
+    left: 710px;
+    top: 1300px;
+    width: 400px;
+    padding: 5px 5px 5px 5px;
+    left: 328px;
+    position: absolute;
+    top: 1200px;
+}
+
+.text_box4 {
+    margin: 30;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.99;
+    left: 710px;
+    top: 1300px;
+    width: 400px;
+    padding: 5px 5px 5px 5px;
+    left: 328px;
+    position: absolute;
+    top: 1300px;
+}
+
+.text_box5 {
+    margin: 30;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.99;
+    left: 710px;
+    top: 1300px;
+    width: 400px;
+    padding: 5px 5px 5px 5px;
+    left: 328px;
+    position: absolute;
+    top: 1400px;
+}
+
+.text_box6 {
+    margin: 30;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.99;
+    left: 710px;
+    top: 1300px;
+    width: 400px;
+    padding: 5px 5px 5px 5px;
+    left: 328px;
+    position: absolute;
+    top: 1800px;
 }
     
 /*
