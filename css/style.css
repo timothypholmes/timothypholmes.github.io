@@ -920,6 +920,44 @@ ul {
     position: absolute;
     top: 1800px;
 }
+
+.text_box7 {
+    margin: 30;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.99;
+    left: 710px;
+    top: 1300px;
+    width: 400px;
+    padding: 5px 5px 5px 5px;
+    left: 328px;
+    position: absolute;
+    top: 1900px;
+}
+
+.text_box8 {
+    margin: 30;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.99;
+    left: 710px;
+    top: 1300px;
+    width: 400px;
+    padding: 5px 5px 5px 5px;
+    left: 328px;
+    position: absolute;
+    top: 2000px;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
     
 /*
 .stop {
