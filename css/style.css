@@ -805,9 +805,10 @@ header {
 } 
 
 .timeline{
-    height: 300vh;
+    height: 250vh;
     background: whitesmoke;
-    min-width: 800px;
+    min-width: 1000px;
+    max-width: 1000px;
 }
 
 /* Train text */ 
@@ -834,22 +835,30 @@ ul {
 
 .text_box1 {
     margin: 30;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    opacity: 0.6;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.99;
     left: 625px;
-    position: absolute;
-    top: -500px;
+    top: 500px;
+    width: 400px;
+    padding: 5px 5px 5px 5px;
+}
+
+.text_box1 > p {
+    text-align: right;
 }
     
 .text_box2 {
     margin: 30;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    opacity: 0.6;
-    left: 625px;
-    position: absolute;
-    top: -300px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.99;
+    left: 710px;
+    top: 1300px;
+    width: 400px;
+    padding: 5px 5px 5px 5px;
 }
     
 /*
