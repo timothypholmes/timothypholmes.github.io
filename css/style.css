@@ -1,3 +1,7 @@
+@font-face {
+    src: url("fonts/futura-pt-heavy.otf");
+}
+
 body, div, h1, h2, h3, h4, h4, h6, p, ul, ol, li, dl, dt, dd, img, form{
     margin: 0 auto; padding: 0; border: 0; min-width: 10px;
 }
@@ -71,6 +75,7 @@ header {
     color: white;
     font-size: 20px;
     min-width: 200px;
+    font-family: 'proxima-nova', sans-serif;
 }
 
 .banner > .banner-contacts{
@@ -102,7 +107,7 @@ header {
 }
 
 .banner h6 {
-    font-family: monaco; 
+    font-family: 'proxima-nova', sans-serif;
     overflow: hidden; 
     border-right: .1em solid white; 
     white-space: nowrap; 
@@ -147,6 +152,7 @@ header {
     padding-top: 10%; 
     font-size: 35px;
     font-weight: 1;
+    font-family: 'proxima-nova', sans-serif;
 }
 
 .section1 > p {
@@ -156,6 +162,7 @@ header {
     padding-right: 10%;
     padding-top: 1%; 
     padding-bottom: 5%; 
+    font-family: Futura;
 }
 
 .section1 > .about_me_profile {
@@ -220,6 +227,7 @@ header {
     text-decoration: none;
     color: white;
     opacity: 1;
+    font-family: 'proxima-nova', sans-serif;
 }
 
 .nav > .nav_buttons:hover li {
@@ -304,6 +312,7 @@ header {
     padding-top: 10px;
     font-size: 2vw;
     font-weight: 100;  
+    font-family: 'proxima-nova', sans-serif;
 }
 
 .logo_name > a { 
@@ -437,8 +446,12 @@ header {
 .resume h2 {
     font-size: 45px;
     font-weight: 1;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 0px 0px;
     text-align: center;
+    font-family: 'futura-pt-heavy', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    height: 1em;
 }
 
 .resume a {
@@ -489,9 +502,42 @@ header {
     font-size: 45px;
     font-weight: 100;
     text-align: center;
-    padding: 10px 0 10px 0;
+    padding: 0px 0 20px 0;
+    font-family: 'futura-pt-heavy', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    height: 1em;
 }
 
+.row {
+    padding: 0px 0px 0px 0px;
+    max-width: 1200px;
+}
+
+.projects {
+  
+    padding: 0px;
+}
+
+.section3 .projects img {
+    opacity: 0.3;
+}
+
+.section3 .projects:hover img {
+    opacity: 1;
+}
+  
+.projects img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    max-width: 1200px;
+}
+  
+
+/*
 .row {
     display: flex;
     padding: 0px 10px 150px 10px;
@@ -530,7 +576,7 @@ header {
     margin: 0 auto;
     color: white;
 }
-
+*/
 .extended-projects {
     padding: 0 18px;
     display: none;
@@ -678,7 +724,12 @@ header {
     font-weight: 100;
     text-align: center;
     padding: 10px 0 10px 0;
+    font-family: 'futura-pt-heavy', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    height: 1em;
 }
+
 .presentations {
     min-width: 800px;
 }
@@ -713,6 +764,10 @@ header {
     font-weight: 100;
     text-align: center;
     padding: 10px 0 10px 0;
+    font-family: 'futura-pt-heavy', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    height: 1em;
 }
 
 .interests {
@@ -735,6 +790,10 @@ header {
     font-weight: 100;
     text-align: center;
     padding: 10px 0 10px 0;
+    font-family: 'futura-pt-heavy', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    height: 1em;
 }
 
 .heuristics p {
