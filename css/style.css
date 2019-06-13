@@ -355,6 +355,8 @@ header {
     position: center;
     text-align: center;
     padding: 40px 40px 0px 40px;
+    font-weight: 1;
+    font-family: 'proxima-nova', sans-serif;
 }
   
 .footer > .copyright > p {  
@@ -366,6 +368,8 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 11px;
+    font-weight: 1;
+    font-family: 'proxima-nova', sans-serif;
 }
 
 .footer > .copyright > a {  
@@ -384,6 +388,8 @@ header {
     position: center;
     text-align: center;
     padding: 40px 40px 40px 40px;
+    font-weight: 2;
+    font-family: 'proxima-nova', sans-serif;
 }
 
 .footer > .footer_nav {
@@ -398,6 +404,8 @@ header {
     padding: 0px 40px 40px 40px;
     font-size: 18px;  
     color: white;
+    font-weight: 1;
+    font-family: 'proxima-nova', sans-serif;
 }
 
 .footer > .footer_nav > li a {  
@@ -419,6 +427,7 @@ header {
     list-style: none;
     position: center;
     text-align: center;
+    
 }
 
 .footer > .footer_contacts > a {  
@@ -449,10 +458,9 @@ header {
     font-weight: 1;
     padding: 20px 0px 0px 0px;
     text-align: center;
-    font-family: 'futura-pt-heavy', Arial, sans-serif;
-    font-weight: 700;
-    font-size: 80px;
-    height: 1em;
+    font-size: 45px;
+    font-weight: 1;
+    font-family: 'proxima-nova', sans-serif;   
 }
 
 .resume a {
@@ -502,11 +510,10 @@ header {
 .section3 > h6 {
     font-size: 45px;
     text-align: center;
-    padding: 0px 0 20px 0;
-    font-family: 'futura-pt-heavy', Arial, sans-serif;
-    font-weight: 700;
-    font-size: 80px;
-    height: 1em;
+    padding: 20px 0 20px 0;
+    font-size: 45px;
+    font-weight: 1;
+    font-family: 'proxima-nova', sans-serif; 
 }
 
 .projects {
@@ -713,10 +720,9 @@ header {
     font-weight: 100;
     text-align: center;
     padding: 10px 0 10px 0;
-    font-family: 'futura-pt-heavy', Arial, sans-serif;
-    font-weight: 700;
-    font-size: 80px;
-    height: 1em;
+    font-size: 45px;
+    font-weight: 1;
+    font-family: 'proxima-nova', sans-serif; 
 }
 
 .presentations {
@@ -753,10 +759,9 @@ header {
     font-weight: 100;
     text-align: center;
     padding: 10px 0 10px 0;
-    font-family: 'futura-pt-heavy', Arial, sans-serif;
-    font-weight: 700;
-    font-size: 80px;
-    height: 1em;
+    font-size: 45px;
+    font-weight: 1;
+    font-family: 'proxima-nova', sans-serif; 
 }
 
 .interests {
@@ -779,10 +784,9 @@ header {
     font-weight: 100;
     text-align: center;
     padding: 10px 0 10px 0;
-    font-family: 'futura-pt-heavy', Arial, sans-serif;
-    font-weight: 700;
-    font-size: 80px;
-    height: 1em;
+    font-size: 45px;
+    font-weight: 1;
+    font-family: 'proxima-nova', sans-serif; 
 }
 
 .heuristics p {
@@ -2059,11 +2063,11 @@ ul {
     position: relative;
     top: -840px; }
     #red-line .route {
-    background-color: #E31A38;}
+    background-color: rgb(255, 0, 0);opacity:0.6;;}
     
   
 #red1 {
-    height: 2000px;
+    height: 1875px;
     left: 97px;
     position: absolute;
     width: 20px;}
