@@ -838,69 +838,68 @@ ul {
   
 #cta {
     padding-left: 0%;
-    padding-top: 0%; }
+    padding-top: 70%; }
 
 /* Formal Resume */
 
-#cta .formal-resume .degree {
-    
+.formal-resume .degree {
+    top: -840px; 
     font-size: 30px;
     position: relative;
 }
 
-#cta .formal-resume .bio-degree {
-
+.formal-resume .bio-degree {
+    top: -830px; 
     font-size: 15px;
     position: relative;
 }
 
-#cta .formal-resume .degree p{
+.formal-resume .degree p{
     text-align: center;
     color: #888;
     min-width: 900px;
     max-width: 900px;
+    font-weight: 1;
+    font-family: 'proxima-nova', sans-serif; 
 }
 
-#cta .formal-resume .bio-degree p{
+.formal-resume .bio-degree p{
     text-align: center;
     color: #888;
     min-width: 900px;
     max-width: 900px;
+    font-weight: 1;
+    font-family: 'proxima-nova', sans-serif; 
 }
 
-
-#cta .formal-resume h1, h2 {
+.formal-resume h1, h2 {
     font-weight: 900;
     margin-top: 1em;
     margin-bottom: 0.3em;
+    text-align: center;
+    color: #888;
+    min-width: 900px;
+    max-width: 900px;
     font-weight: 1;
     font-family: 'proxima-nova', sans-serif; 
   }
   
-#cta .formal-resume h3 {
+.formal-resume h3 {
     margin-top: 0;
     margin-bottom: 0.3em;
     font-weight: 1;
     font-family: 'proxima-nova', sans-serif; 
     color: #454545;
     opacity: 85%; 
-}
-  
-#cta .formal-resume a {
-    color: #3d6dbe;
-    text-decoration: none;
+    text-align: center;
+    color: #888;
+    min-width: 900px;
+    max-width: 900px;
     font-weight: 1;
     font-family: 'proxima-nova', sans-serif; 
 }
   
-#cta .formal-resume a:focus,
-#cta .formal-resume a:hover {
-    color: #6594e0;
-    font-weight: 1;
-    font-family: 'proxima-nova', sans-serif; 
-}
-  
-#cta .formal-resume p {
+.formal-resume p {
     font-size: 1em;
     line-height: 1.8;
     margin-top: 0;
@@ -911,38 +910,46 @@ ul {
     opacity: 75%; 
     min-width: 900px;
     max-width: 900px;
+    text-align: center;
 }
-  
-#cta .formal-resume ul li {
+
+.formal-resume ul li {
     line-height: 1.8;
     font-weight: 1;
     font-family: 'proxima-nova', sans-serif; 
     min-width: 900px;
     max-width: 900px;
+    text-align: center;
 }
   
   /* Utilities */
   
-#cta .formal-resume section {
+.formal-resume section {
     margin-bottom: 0px;
   }
   
-  #cta .formal-resume .light {
+.formal-resume .light {
     color: #888;
 }
   
   /* The Grid */
   
-  #cta .formal-resume .grid-1,
-  #cta .formal-resume .grid-2,
-  #cta .formal-resume .grid-3{
+.formal-resume .grid-1,
+.formal-resume .grid-2,
+.formal-resume .grid-3{
+    top:-820px; 
     position: relative;
-    left: 310px;
+    text-align: center;
+    color: #888;
+    min-width: 900px;
+    max-width: 900px;
+    font-weight: 1;
+    font-family: 'proxima-nova', sans-serif; 
   }
 
-  #cta .formal-resume .grid-1 p,
-  #cta .formal-resume .grid-2 p,
-  #cta .formal-resume .grid-3 p{
+.formal-resume .grid-1 p,
+.formal-resume .grid-2 p,
+.formal-resume .grid-3 p{
     font-size: 15px;
     color: #454545;
     opacity: 75%;
@@ -950,36 +957,45 @@ ul {
     max-width: 900px;
   }
 
-  #cta .formal-resume .grid-4,
-  #cta .formal-resume .grid-5,
-  #cta .formal-resume .grid-6,
-  #cta .formal-resume .grid-7,
-  #cta .formal-resume .grid-8,
-  #cta .formal-resume .grid-9,
-  #cta .formal-resume .grid-10,
-  #cta .formal-resume .grid-11,
-  #cta .formal-resume .grid-12{
+.formal-resume .grid-4,
+.formal-resume .grid-5,
+.formal-resume .grid-6,
+.formal-resume .grid-7,
+.formal-resume .grid-8,
+.formal-resume .grid-9,
+.formal-resume .grid-10,
+.formal-resume .grid-11,
+.formal-resume .grid-12{
     position: relative;
     left: 350px;
+    text-align: center;
+    color: #888;
+    min-width: 900px;
+    max-width: 900px;
+    font-weight: 1;
+    font-family: 'proxima-nova', sans-serif; 
+    top:-840px;
   }
 
-  #cta .formal-resume .grid-4 p,
-  #cta .formal-resume .grid-5 p,
-  #cta .formal-resume .grid-6 p,
-  #cta .formal-resume .grid-7 p,
-  #cta .formal-resume .grid-8 p,
-  #cta .formal-resume .grid-9 p,
-  #cta .formal-resume .grid-10 p,
-  #cta .formal-resume .grid-11 p,
-  #cta .formal-resume .grid-12 p{
+.formal-resume .grid-4 p,
+.formal-resume .grid-5 p,
+.formal-resume .grid-6 p,
+.formal-resume .grid-7 p,
+.formal-resume .grid-8 p,
+.formal-resume .grid-9 p,
+.formal-resume .grid-10 p,
+.formal-resume .grid-11 p,
+.formal-resume .grid-12 p{
     font-size: 15px;
     min-width: 900px;
     max-width: 900px;
+    top:-840px;
   }
 
-  #cta .formal-resume hr{
+.formal-resume hr{
     min-width: 900px;
     max-width: 900px;
+    top:-840px;
     font-weight: 1;
     font-family: 'proxima-nova', sans-serif; 
     color: lightgray;
