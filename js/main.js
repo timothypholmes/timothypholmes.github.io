@@ -63,6 +63,17 @@ function myFunction() {
 })();
 
 
+function change() // no ';' here
+{
+    var elem = document.getElementById("collapsible");
+    if (elem.value=="Close Curtain") elem.value = "Open Curtain";
+    else elem.value = "Close Curtain";
+}
+
+
+
+
+
 /*!
  * Stellar.js v0.6.2
  * http://markdalgleish.com/projects/stellar.js
