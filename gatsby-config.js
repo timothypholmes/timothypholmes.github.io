@@ -5,6 +5,8 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  pathPrefix: "/timothypholmes.github.io",
 }
+
+
+
