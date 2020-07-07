@@ -6,5 +6,5 @@
 
 // You can delete this file if you're not using it
 module.exports = {
-    pathPrefix: "/timothypholmes.github.io",
+    pathPrefix: "/timothypholmes.github.io/index",
   }
