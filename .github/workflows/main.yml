@@ -1,26 +1,15 @@
+name: Gatsby Publish
+
 on:
   push:
     branches:
-      - gh-pages
-name: build gatsby
+      - dev
+
 jobs:
-  build_gatsby:
-    name: build
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-
-      - name: yarn install
-        run: yarn install
-
-      - name: gatsby build
-        env:
-          GH_API_KEY: ${{ secrets.KEY }}
-        run: yarn build
-
-      - name: deploy
-        uses: maxheld83/ghpages@v0.2.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_PAT: ${{ secrets.KEY }}
-          BUILD_DIR: "public/"
+      - uses: enriikke/gatsby-gh-pages-action@v2
+        with:
+          access-token: ${{ secrets.KEY }}
