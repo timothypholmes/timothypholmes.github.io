@@ -8,8 +8,8 @@ git add .
 echo enter commit message:
 read commit
 git commit -m "$commit"
-git push
+git push -u origin master
 
-echo -------
-echo |Done.|
-echo -------
+echo +-------+
+echo | Done. |
+echo +-------+
