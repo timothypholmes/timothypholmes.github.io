@@ -32,6 +32,6 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 
-  pathPrefix: "timothypholmes.github.io",
+  //pathPrefix: "timothypholmes.github.io",
   
 }
