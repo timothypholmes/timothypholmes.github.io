@@ -23,7 +23,6 @@ const StyledContentWrapper = styled(ContentWrapper)`
   && {
     width: 100%;
     /* Don't stretch container over the full page width */
-    max-width: 45rem;
     height: 100%;
     display: inline-block;
     p {
@@ -40,16 +39,6 @@ const StyledContentWrapper = styled(ContentWrapper)`
         flex-direction: row;
         align-items: center;
         margin-bottom: 3rem;
-      }
-      .avatar {
-        width: 100%;
-        max-width: 8.75rem;
-        border-radius: 50%;
-        margin-right: 4rem;
-        margin-bottom: 2rem;
-        @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-          margin-bottom: 0;
-        }
       }
       .details {
         font-size: 1.125rem;
@@ -76,7 +65,6 @@ const Contact = ({ content }) => {
         <h3>{frontmatter.title}</h3>
         <MDXRenderer>{body}</MDXRenderer>
         <div className="profile">
-          <Img className="avatar" fluid={frontmatter.profileImage.childImageSharp.fluid} />
           <div className="details">
             <strong>{frontmatter.name}</strong>
             <br />

@@ -40,7 +40,13 @@
   },
   "keywords": [
     "gatsby",
+    "starter",
+    "mdx",
+    "PWA",
+    "netlify",
     "portfolio",
+    "minimal",
+    "animations"
   ],
   "license": "MIT",
   "scripts": {
