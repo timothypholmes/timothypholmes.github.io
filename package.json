@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "eslint-plugin-mdx": "^1.6.3",
+    "gh-pages": "^3.1.0",
     "prettier": "^1.19.1"
   },
   "keywords": [
@@ -56,7 +57,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",

@@ -35,6 +35,13 @@ export const pageQuery = graphql`
           title
           subtitlePrefix
           subtitle
+          screenshot {
+            childImageSharp {
+              fluid(maxWidth: 400, quality: 90) {
+                ...GatsbyImageSharpFluid
+          }
+        }
+      }
         }
       }
     }
@@ -49,6 +56,13 @@ export const pageQuery = graphql`
           emoji
           external
           github
+          screenshot {
+            childImageSharp {
+              fluid(maxWidth: 400, quality: 90) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           tags
           position
           buttonVisible

@@ -24,8 +24,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
     height: 100%;
     min-height: 60vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /*flex-direction: column;*/
     margin-bottom: 6rem;
     @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
       margin-bottom: 4rem;
@@ -34,29 +33,30 @@ const StyledContentWrapper = styled(ContentWrapper)`
       display: flex;
       justify-content: flex-start;
       align-items: center;
-    }
-    .emoji {
-      margin-left: 0.75rem;
-      width: 2.2rem;
-      height: 2.2rem;
-      @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-        margin-left: 1rem;
-        width: 3rem;
-        height: 3rem;
-      }
+      width: 65%;
     }
     .title {
       margin-bottom: 1.5rem;
+      width: 65%;
       @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
         margin-bottom: 0;
       }
     }
     .subtitle {
       margin-top: -0.75rem;
+      width: 65%;
     }
     .description {
       font-size: 1.125rem;
       margin-bottom: 2rem;
+      width: 65%;
+    }
+    .screenshot {
+      border: 1.5px solid #ddd;
+      border-radius: 8px;
+      width: 300px;
+      display: flex;
+      float: right;
     }
   }
 `
@@ -105,6 +105,10 @@ const Hero = ({ content }) => {
       {!isIntroDone && <SplashScreen />}
       <StyledContentWrapper>
         <motion.div initial={{ opacity: 0, y: 20 }} animate={gControls}>
+          <Img
+            className="screenshot"
+            fluid={frontmatter.screenshot.childImageSharp.fluid}
+          />
           <h1 className="title">
             <div className="greetings">
               {frontmatter.greetings}
