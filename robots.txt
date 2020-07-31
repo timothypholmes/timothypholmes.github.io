@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://timothypholmes.github.io/sitemap.xml
+Host: https://timothypholmes.github.io
