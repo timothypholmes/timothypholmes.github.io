@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/sections/hero"
 import Projects from "../components/sections/projects"
+import Publications from "../components/sections/publications"
 import Contact from "../components/sections/contact"
 import { splashScreen } from "../config"
 
@@ -14,6 +15,7 @@ const IndexPage = ({ data }) => (
     <SEO title="Portfolio Minimal - A Gatsby Starter." />
     <Hero content={data.hero.edges} />
     <Projects content={data.projects.edges} />
+    <Publications content={data.publications.edges} />
     <Contact content={data.contact.edges} />
   </Layout>
 )
@@ -68,6 +70,25 @@ export const pageQuery = graphql`
           buttonVisible
           buttonUrl
           buttonText
+        }
+      }
+    }
+  }
+  publications: allMdx(filter: {fileAbsolutePath: {regex: "/publications/"}}) {
+    edges {
+      node {
+        body
+        frontmatter {
+          title
+          name
+          email
+          profileImage {
+            childImageSharp {
+              fluid(maxWidth: 400, quality: 90) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }

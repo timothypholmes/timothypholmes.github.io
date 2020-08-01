@@ -13,11 +13,11 @@ module.exports = {
     socialMedia: [
         {
             name: "Linkedin",
-            url: "https://www.linkedin.com/in/"
+            url: "https://www.linkedin.com/in/timothy-holmes-50080286/"
         },
         {
             name: "Github",
-            url: "https://github.com/"
+            url: "https://github.com/timothypholmes"
         },
         {
             name: "Google Scholar",
@@ -30,6 +30,10 @@ module.exports = {
             {
                 name: "Projects",
                 url: "/#projects",
+            },
+            {
+                name: "Publications",
+                url: "/#publications",
             },
             {
                 name: "Contact",
