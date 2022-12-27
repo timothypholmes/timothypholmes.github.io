@@ -1,26 +1,8 @@
 import React from 'react';
+import config from "../../config/"
 
 function Projects() {
-  const projects = [
-    {
-      title: 'Startup Page',
-      image: 'project-1.jpg',
-      description: 'This is a description of Project 1',
-      link: 'https://github.com/user/project-1'
-    },
-    {
-      title: 'Lagrangian Mechanics & Chaos Theory',
-      image: 'project-2.jpg',
-      description: 'With the idea of Lagrangian Mechanics and the power of numerical methods this python package sets out to solve numerous classical mechanics pendulum problems.',
-      link: 'https://github.com/user/project-2'
-    },
-    {
-      title: 'Particle in a Box',
-      image: 'project-3.jpg',
-      description: 'A model of a particle in an infinite square well. Program has been created in python and Matlab.',
-      link: 'https://github.com/user/project-3'
-    },
-  ];
+  const { projects } = config
 
   return (
     <div class="ml-auto mr-auto w-1/2 pt-4">

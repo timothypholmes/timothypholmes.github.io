@@ -2,33 +2,29 @@
 import React from "react";
 import ReactDom from "react-dom";
 import styles from "../assets/styles/index.css"
+import config from "../config/"
 
 // components
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
-import Projects from "../components/projects"
-import About from "../components/about";
+import Projects from "../components/sections/projects"
+import About from "../components/sections/about";
+import Contact from "../components/sections/contact";
 
 
 export default function Index() {
   return (
     <>
-        <body class="relative bg-[#F2F2F2] w-full h-full ">
+        <body class={`${config.style.background} relative w-full h-full`}>
             <Navbar />
             <div class="flex h-full">
                 <About />
             </div>
-            <div class="flex bg-[#F2F2F2] h-auto">
+            <div href="/#projects" class={`${config.style.background} flex h-auto`}>
                 <Projects />
             </div>
-            <div class="bg-[#F2F2F2] h-screen">
-                <div class="ml-auto mr-auto w-1/2 pt-4">
-                    <p class="pt-4">
-                        <a class="text-4xl">
-                            Contacts
-                        </a>
-                    </p>
-                </div>
+            <div class={`${config.style.background} h-screen`}>
+                <Contact />
             </div>
             <Footer />
         </body>

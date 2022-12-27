@@ -1,5 +1,6 @@
 {
   "name": "timothypholmes.github.io",
+  "homepage": "https://timothypholmes.github.io/timothypholmes.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.13",
+    "framer-motion": "^8.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.1",
@@ -15,6 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.20",
     "postcss-cli": "^10.1.0",
     "tailwindcss": "^3.2.4"
