@@ -1,6 +1,5 @@
 {
   "name": "timothypholmes.github.io",
-  "homepage": "https://timothypholmes.github.io/timothypholmes.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +13,8 @@
     "react-router-dom": "^6.6.1",
     "react-scripts": "^5.0.1",
     "styled-components": "^5.3.6",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.75.0"
   },
   "scripts": {
     "predeploy": "npm run build",

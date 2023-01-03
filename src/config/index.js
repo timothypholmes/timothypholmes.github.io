@@ -36,8 +36,8 @@ module.exports = {
             url: "https://github.com/timothypholmes"
         },
         {
-            name: "Google Scholar",
-            url: "https://scholar.google.com/citations?user=VtyR8wEAAAAJ&hl=en"
+            name: "Medium",
+            url: "https://medium.com/@tpholmes7"
         },
     ],
   
@@ -59,27 +59,28 @@ module.exports = {
     projects: [
         {
           title: 'Startup Page',
-          image: 'project-1.jpg',
-          description: 'This is a description of Project 1',
-          link: 'https://github.com/user/project-1'
+          image: 'https://i.imgur.com/SuN8gKt.png',
+          description: 'A minimal home page for a browser called Modular Grid Page. Modular Grid Page is designed to be a fast and efficient homepage that is easy to use. It has a clean and intuitive interface, and it comes with a number of useful features that make browsing the web a breeze.',
+          link: 'https://github.com/timothypholmes/startup-page'
         },
         {
           title: 'Lagrangian Mechanics & Chaos Theory',
-          image: 'project-2.jpg',
-          description: 'With the idea of Lagrangian Mechanics and the power of numerical methods this python package sets out to solve numerous classical mechanics pendulum problems.',
-          link: 'https://github.com/user/project-2'
+          image: 'https://i.imgur.com/5aLtFp6.png',
+          description: 'The project is a simulation of the motion of a double pendulum, which is a system consisting of two interconnected pendulums. The motion of the pendulums is governed by the laws of classical mechanics, specifically by the principle of least action known as the Lagrangian formulation.',
+          link: 'https://github.com/timothypholmes/lagrangian-mechanics'
         },
         {
           title: 'Particle in a Box',
-          image: 'project-3.jpg',
-          description: 'A model of a particle in an infinite square well. Program has been created in python and Matlab.',
-          link: 'https://github.com/user/project-3'
+          image: 'https://i.imgur.com/069gaTc.png',
+          description: 'The project is a simulation of the behavior of a single quantum particle confined to a one-dimensional box, also known as a quantum well. The particle is described by the Schrödinger equation, which describes how the probability density of the particle changes over time.',
+          link: 'https://github.com/timothypholmes/Infinite-square-well-Schrodinger-equation'
         },
     ],
 
     style: {
         background: 'bg-[#F2F2F2]',
-        navBackground: 'bg-[#F2F2F2]'
+        navBackground: 'bg-[#F2F2F2]',
+        underline: 'decoration-blue-500'
     }
     
 }

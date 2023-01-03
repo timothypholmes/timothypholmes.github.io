@@ -17,13 +17,13 @@ export default function Index() {
     <>
         <body class={`${config.style.background} relative w-full h-full`}>
             <Navbar />
-            <div class="flex h-full">
+            <div class="flex">
                 <About />
             </div>
-            <div href="/#projects" class={`${config.style.background} flex h-auto`}>
+            <div href="projects" class={`${config.style.background} flex h-auto`}>
                 <Projects />
             </div>
-            <div class={`${config.style.background} h-screen`}>
+            <div id="contact" class={`${config.style.background} h-auto`}>
                 <Contact />
             </div>
             <Footer />
